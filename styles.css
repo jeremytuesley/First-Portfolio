@@ -1,72 +1,78 @@
 body {
   margin: 0;
-  background-color: rgb(128, 196, 223);
 }
+
 /* Home Page */
+
 /* Main Content */
-main {
-  margin: 0 auto;
-  width: 1000px;
-}
-header {
-  display: flex;
-  margin-top: 2em;
-}
-figure {
-  margin: 0;
+.homesection {
+  margin: 6em 4em 4em 10em;
+  padding-left: 6rem;
   width: 50%;
 }
-figure img {
-  float: right;
+.homeheader h1 {
+  color: #08036ec7;
+  font-size: 4em;
   width: 100%;
-  max-width: 25rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1.337px;
 }
-figcaption {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-}
-figcaption h1 {
- color: #08036ec7;
-  margin: 0 2;
+.homeheader h2 {
+  color: #060247d2;
+  font-size: 2.4em;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
-}
-figcaption h2 {
-    color: #060247d2;
-  margin: 0 2;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: italic;
-}
-.figure {
-  width: 50px;
+  margin-top: 1em;
 }
 /* Article */
-section {
+.articletitle {
+  margin: 6rem 0 8px 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.homearticle img {
+  overflow: hidden;
+  border-radius: 10px;
+  max-height: 16rem;
   min-width: 30rem;
   width: 60%;
-  margin: auto;
+  box-shadow: 4px 4px 10px #333, 8px 8px 10px rgb(58, 58, 235);
 }
-section h1 {
-  margin-top: 10px;
-  margin-bottom: 0;
-  font-size: 1.6em;
+
+/* About  Page */
+
+/* Main Content */
+.aboutsection {
+  margin: 6em 4em 4em 10em;
+  padding-left: 6rem;
+  width: 50%;
 }
-section article {
-  padding: 5px 10px 10px 10px;
-  border: 3px solid black;
-  max-height: 10rem;
-  overflow: scroll;
-  background-color: rgb(141, 174, 235);
+.aboutheader h1 {
+  color: #08036ec7;
+  font-size: 2.6em;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1.337px;
 }
-section article p {
-  text-align: justify;
-  hyphens: auto;
-  margin: 0 10px;
+.aboutheader h2 {
+  color: #060247d2;
+  font-size: 2.4em;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  margin-top: 1em;
 }
-section img {
-  margin-right: 1em;
-  float: left;
+/* Article */
+.articletitle {
+  margin: 6rem 0 8px 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.aboutarticle img {
+  overflow: hidden;
+  border-radius: 10px;
+  max-height: 16rem;
+  min-width: 30rem;
+  width: 60%;
+  box-shadow: 4px 4px 10px #333, 8px 8px 10px rgb(58, 58, 235);
 }
