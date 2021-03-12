@@ -19,39 +19,65 @@
   </head>
   <body>
     <nav>
-      <div><a href="/index.html">Home</a></div>
-      <div><a href="/about.html">About</a></div>
-      <div><a href="/blog.html">Blog</a></div>
-      <div><a href="/contact.html" class="active">Contact Me</a></div>
+      <div><a href="index.html">Home</a></div>
+      <div><a href="about.html">About</a></div>
+      <div><a href="blog.html">Blog</a></div>
+      <div><a href="contact.html" class="active">Contact Me</a></div>
     </nav>
     <main>
       <aside>
-        <a href="https://github.com/jeremytuesley">
-          <div>
+        <div>
+          <a href="https://github.com/jeremytuesley">
             <i class="fab fa-github"></i>
-          </div>
-        </a>
-        <a href="https://www.linkedin.com/in/jeremy-tuesley-46ab3619a/"
-          ><div>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/jeremy-tuesley-46ab3619a/">
             <i class="fab fa-linkedin"></i>
-          </div>
-        </a>
-        <a href="https://twitter.com/Sunefirst"
-          ><div>
+          </a>
+        </div>
+        <div>
+          <a href="https://twitter.com/Sunefirst">
             <i class="fab fa-twitter"></i>
-          </div>
-        </a>
-        <a href="mailto:jeremytuesley@gmail.com"
-          ><div>
+          </a>
+        </div>
+        <div>
+          <a href="mailto:jeremytuesley@gmail.com">
             <i class="fas fa-envelope"></i>
-          </div>
-        </a>
+          </a>
+        </div>
       </aside>
       <section>
         <header class="contactheader">
-          <h1> Contact Form </h1>
+          <h1>Have an enquiry? -</h1>
+         <a href="Pictures/Jeremy-Tuesley-Resume.pdf" download>Want to see my Resume?</a>
         </header>
-        <article
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="Name" placeholder="Your name.." />
+          <label for="lname">Organisation</label>
+          <input class="form"
+            type="text"
+            id="organisation"
+            name="Organisation"
+            placeholder="Your organisation.."
+          />
+          <label for="Contact">Best Contact</label>
+          <input class="form"
+            type="text"
+            id="contact"
+            name="contact"
+            placeholder="Your contact info.."
+          />
+          <label for="enquiry">Enquiry</label>
+          <textarea
+            id="enquiry"
+            name="enquiry"
+            placeholder="Write your enquiry here.."
+            style="height: 200px"
+          ></textarea>
+          <input class="submit" type="submit" value="Submit" />
+        </form>
       </section>
     </main>
   </body>

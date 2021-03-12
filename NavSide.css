@@ -200,7 +200,7 @@ nav a.active:after {
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-/* Footer */
+/* Sidebar */
 aside {
   position: fixed;
   width: fit-content;
@@ -210,17 +210,20 @@ aside {
 a {
   color: black;
 }
-aside a div {
+aside div {
   padding: 0.5em;
   border-radius: 50%;
   margin: 3em;
 }
-aside a div:hover {
-  color: white;
+aside div:hover {
   background-color: #5c2be2;
   transition: 0.75s;
 }
-aside a div i {
+aside div:hover i {
+    color: white;
+    transition: 0.75s;
+}
+aside div i {
   font-size: 2.4em;
   z-index: 1;
 }
