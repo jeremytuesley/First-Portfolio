@@ -121,6 +121,10 @@ nav {
   width: 100%;
   align-items: center;
 }
+.hamburger {
+  display: none;
+  color: white;
+}
 nav div {
   height: 2em;
   text-align: center;
@@ -219,10 +223,61 @@ aside div:hover {
   transition: 0.75s;
 }
 aside div:hover i {
-    color: white;
-    transition: 0.75s;
+  color: white;
+  transition: 0.75s;
 }
 aside div i {
   font-size: 2.4em;
   z-index: 1;
+}
+
+/* Mobile Nav */
+@media screen and (max-width: 1000px) {
+  aside {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border: none;
+    padding-bottom: 0;
+  }
+  aside div {
+    margin: 3em auto;
+  }
+  main {
+    flex-direction: column-reverse;
+  }
+  nav {
+    align-items: center;
+  }
+  nav div {
+    display: none;
+    text-align: start;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .hamburger i {
+    font-size: 2.4em;
+    margin-left: 1em;
+  }
+}
+.mobNav {
+  height: 100vh;
+  transition: 0.2s;
+  background-color: #0c04a5;
+  flex-direction: column;
+}
+.mobNav div:not(.hamburger) {
+  display: block;
+  font-size: 2em;
+  margin-top: 2em;
+}
+.mobNav .hamburger a {
+  display: none;
+}
+.mobNav .hamburger i {
+  margin-top: 20px;
 }

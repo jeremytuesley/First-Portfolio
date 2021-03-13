@@ -1,4 +1,4 @@
-/* Universal Css */
+/* Universal CSS */
 
 body {
   margin: 0;
@@ -8,15 +8,6 @@ section {
   padding-left: 6rem;
   width: 600px;
 }
-@media screen and (max-width: 500px) {
-  body {
-    width: 100vw;
-  }
-  section {
-    width: 100vw;
-  }
-}
-
 /* Home Page */
 
 /* Main Content */
@@ -203,17 +194,23 @@ input[type="submit"]:hover {
   font-size: 1.5em;
   margin: 0;
 }
-.blogsection figcaption a{
+.blogsection figcaption a {
   text-decoration: none;
 }
-.blogsection figcaption a:hover{
+.blogsection figcaption a:hover {
   color: #3a3aeb;
   transition: 1s;
 }
-.blogarticle img {
-  max-height: 10rem;
-  min-width: 18rem;
+.blogarticle figure {
+  overflow: hidden;
+  margin: 5px;
+  width: 30%;
+  height: 10em;
 }
+.blogarticle figure img {
+  width: 100%;
+}
+
 .blogsection figcaption {
   flex-grow: 1;
   display: flex;
@@ -245,4 +242,60 @@ input[type="submit"]:hover {
 }
 .postheader figure {
   text-align: center;
+  margin: 0;
+}
+
+/* Mobile View  */
+@media screen and (max-width: 1000px) {
+  /* All pages */
+  main {
+    display: flex;
+  }
+  body {
+    width: 100%;
+  }
+  section {
+    width: 80%;
+    margin: 6em auto 2em auto;
+    padding: 0;
+  }
+
+  /* Home Page */
+
+  .homefigure {
+    margin: 0;
+    width: 100%;
+  }
+  .homefigure img {
+    min-width: auto;
+    max-height: none;
+    width: 100%;
+  }
+  .homeheader h1 {
+    font-size: 2.8em;
+  }
+  .homeheader h2 {
+    font-size: 1.8em;
+  }
+  /* Contact Page */
+
+  .contactheader {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* Blog Page */
+  .blogsection {
+    width: 90%;
+  }
+  .blogarticle {
+    flex-direction: column;
+  }
+  .blogarticle img {
+    width: 100%;
+  }
+  .blogarticle figure {
+    margin: 0;
+    width: 100%;
+  }
 }

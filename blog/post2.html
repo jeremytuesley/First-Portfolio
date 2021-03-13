@@ -12,6 +12,7 @@
       src="https://kit.fontawesome.com/6d6ee108ab.js"
       crossorigin="anonymous"
     ></script>
+    <script src="../script.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,10 +20,14 @@
   </head>
   <body>
     <nav>
+      <div class="hamburger">
+        <i class="fas fa-bars" onclick="handleOnClick()"></i>
+        <a href="./">Blog</a>
+      </div>
       <div><a href="../">Home</a></div>
       <div><a href="../about.html">About</a></div>
       <div><a href="./" class="active">Blog</a></div>
-      <div><a href="../contact.html">Contact Me</a></div>
+      <div><a href="../contact.html">Contact</a></div>
     </nav>
     <main>
       <aside>

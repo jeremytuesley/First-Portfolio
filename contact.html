@@ -12,6 +12,7 @@
       src="https://kit.fontawesome.com/6d6ee108ab.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,10 +20,14 @@
   </head>
   <body>
     <nav>
+      <div class="hamburger">
+        <i class="fas fa-bars" onclick="handleOnClick()"></i>
+        <a href="./">Contact</a>
+      </div>
       <div><a href="./">Home</a></div>
       <div><a href="about.html">About</a></div>
       <div><a href="./blog">Blog</a></div>
-      <div><a href="contact.html" class="active">Contact Me</a></div>
+      <div><a href="contact.html" class="active">Contact</a></div>
     </nav>
     <main>
       <aside>
@@ -49,21 +54,25 @@
       </aside>
       <section>
         <header class="contactheader">
-          <h1>Have an enquiry? -</h1>
-         <a href="Pictures/Jeremy-Tuesley-Resume.pdf" download>Want to see my Resume?</a>
+          <h1>Have an enquiry?</h1>
+          <a href="Pictures/Jeremy-Tuesley-Resume.pdf" download
+            >Want to see my Resume?</a
+          >
         </header>
         <form>
           <label for="name">Name</label>
           <input type="text" id="name" name="Name" placeholder="Your name.." />
           <label for="lname">Organisation</label>
-          <input class="form"
+          <input
+            class="form"
             type="text"
             id="organisation"
             name="Organisation"
             placeholder="Your organisation.."
           />
           <label for="Contact">Best Contact</label>
-          <input class="form"
+          <input
+            class="form"
             type="text"
             id="contact"
             name="contact"
