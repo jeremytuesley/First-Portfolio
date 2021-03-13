@@ -3,7 +3,7 @@
 body {
   margin: 0;
 }
-section {
+section:not(.postdescription){
   margin: 6em 4em 4em 10em;
   padding-left: 6rem;
   width: 600px;
@@ -47,7 +47,7 @@ section {
 /* About  Page */
 
 /* Main Content */
-section p {
+section:not(.postdescription) p {
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
 }
@@ -190,14 +190,14 @@ input[type="submit"]:hover {
   border-radius: 20px;
   box-shadow: 2px 2px 5px #333, 4px 4px 5px #3a3aeb;
 }
-.blogsection figcaption h1 {
+.blogsection .postdescription h2 {
   font-size: 1.5em;
   margin: 0;
 }
-.blogsection figcaption a {
+.blogsection .postdescription a {
   text-decoration: none;
 }
-.blogsection figcaption a:hover {
+.blogsection .postdescription a:hover {
   color: #3a3aeb;
   transition: 1s;
 }
@@ -211,19 +211,19 @@ input[type="submit"]:hover {
   width: 100%;
 }
 
-.blogsection figcaption {
+.blogsection .postdescription {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
-.blogsection figcaption p {
+.blogsection .postdescription p {
   margin-top: auto;
   font-size: 1em;
   color: gray;
 }
 
 /* Blog Posts  */
-.postheader h1 {
+.postheader h2 {
   font-family: "Open Sans", sans-serif;
 }
 .postheader h3 {
@@ -254,7 +254,7 @@ input[type="submit"]:hover {
   body {
     width: 100%;
   }
-  section {
+  section:not(.postdescription){
     width: 80%;
     margin: 6em auto 2em auto;
     padding: 0;
