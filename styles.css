@@ -3,7 +3,7 @@
 body {
   margin: 0;
 }
-section:not(.postdescription){
+section {
   margin: 6em 4em 4em 10em;
   padding-left: 6rem;
   width: 600px;
@@ -47,7 +47,7 @@ section:not(.postdescription){
 /* About  Page */
 
 /* Main Content */
-section:not(.postdescription) p {
+section p {
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
 }
@@ -74,14 +74,12 @@ section:not(.postdescription) p {
 .html5 {
   font-size: 5em;
   background: -webkit-linear-gradient(left, #ffa600, #e34f26);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .css3 {
   font-size: 5em;
   background: -webkit-linear-gradient(right, #2965f1, #264de4);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -250,11 +248,12 @@ input[type="submit"]:hover {
   /* All pages */
   main {
     display: flex;
+    flex-direction: column-reverse;
   }
   body {
     width: 100%;
   }
-  section:not(.postdescription){
+  section {
     width: 80%;
     margin: 6em auto 2em auto;
     padding: 0;

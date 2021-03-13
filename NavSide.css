@@ -42,7 +42,7 @@
     border-bottom: 3px solid white;
   }
 }
-/* Active Animation */
+/* Active Animation Keyframes */
 @keyframes box-active {
   0% {
     width: 0;
@@ -141,7 +141,7 @@ nav a {
 nav div a.active {
   text-shadow: 0 0 10px #ffffff, 0 0 5px #00d9ff;
 }
-/* Nav Bar Animation */
+/* Nav Bar Active Animation */
 nav a:not(.active):before {
   content: "";
   display: block;
@@ -204,7 +204,7 @@ nav a.active:after {
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-/* Sidebar */
+/* Sidebar/ Social Links */
 aside {
   position: fixed;
   border-right: 5px solid #3503bdcc;
@@ -231,7 +231,7 @@ aside div i {
   z-index: 1;
 }
 
-/* Mobile Nav */
+/* Mobile SideNav Changes (to bottom) */
 @media screen and (max-width: 1000px) {
   aside {
     position: relative;
@@ -244,9 +244,7 @@ aside div i {
   aside div {
     margin: 3em auto;
   }
-  main {
-    flex-direction: column-reverse;
-  }
+/* Mobile Nav Changes */
   nav {
     align-items: center;
   }
