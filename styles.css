@@ -119,15 +119,15 @@ section p {
 .contactheader {
   display: flex;
 }
-.contactheader a{
+.contactheader a {
   color: #060247d2;
   font-size: 1em;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   margin-left: 10px;
-  padding-top: 50px
+  padding-top: 50px;
 }
-.contactheader h1{
+.contactheader h1 {
   color: #060247d2;
   font-size: 2.4em;
   font-family: "Open Sans", sans-serif;
@@ -157,17 +157,19 @@ form label {
   width: 75%;
   margin-top: 6px;
 }
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px;  
-  border: 6px solid #b9bae6; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 6px solid #b9bae6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
   overflow: scroll;
 }
-input[type=submit] {
+input[type="submit"] {
   background-color: #5c2be2;
   color: white;
   padding: 12px 22px;
@@ -175,8 +177,43 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #0c04a5e0;
 }
 
 /* Blog Page */
+.blogsection {
+  width: 900px;
+  font-family: "Roboto", sans-serif;
+}
+.blogheader h1 {
+  color: #08036ec7;
+  font-size: 4em;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+.blogarticle {
+  display: flex;
+  padding: 1em;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #333, 4px 4px 5px rgb(58, 58, 235);
+}
+figcaption h1 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+.blogarticle img {
+  max-height: 10rem;
+  min-width: 18rem;
+}
+figcaption {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+figcaption p {
+  margin-top: auto;
+  font-size: 1em;
+  color: gray;
+}
