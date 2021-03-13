@@ -189,7 +189,7 @@ input[type="submit"]:hover {
 .blogheader h1 {
   color: #08036ec7;
   font-size: 4em;
-  width: 100%;
+  margin-top: 0;
   font-family: "Open Sans", sans-serif;
 }
 .blogarticle {
@@ -197,23 +197,52 @@ input[type="submit"]:hover {
   padding: 1em;
   margin-bottom: 30px;
   border-radius: 20px;
-  box-shadow: 2px 2px 5px #333, 4px 4px 5px rgb(58, 58, 235);
+  box-shadow: 2px 2px 5px #333, 4px 4px 5px #3a3aeb;
 }
-figcaption h1 {
+.blogsection figcaption h1 {
   font-size: 1.5em;
-  margin-bottom: 0;
+  margin: 0;
+}
+.blogsection figcaption a{
+  text-decoration: none;
+}
+.blogsection figcaption a:hover{
+  color: #3a3aeb;
+  transition: 1s;
 }
 .blogarticle img {
   max-height: 10rem;
   min-width: 18rem;
 }
-figcaption {
+.blogsection figcaption {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
-figcaption p {
+.blogsection figcaption p {
   margin-top: auto;
   font-size: 1em;
   color: gray;
+}
+
+/* Blog Posts  */
+.postheader h1 {
+  font-family: "Open Sans", sans-serif;
+}
+.postheader h3 {
+  font-family: "Ubuntu";
+}
+.postheader p {
+  margin-top: auto;
+  font-size: 1em;
+  color: gray;
+}
+.postarticle p {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  hyphens: auto;
+}
+.postheader figure {
+  text-align: center;
 }

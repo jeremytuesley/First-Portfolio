@@ -203,7 +203,6 @@ nav a.active:after {
 /* Sidebar */
 aside {
   position: fixed;
-  width: fit-content;
   border-right: 5px solid #3503bdcc;
   padding-bottom: 25vh;
 }
