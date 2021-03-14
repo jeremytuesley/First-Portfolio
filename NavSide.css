@@ -232,7 +232,7 @@ aside div i {
 }
 
 /* Mobile SideNav Changes (to bottom) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
   aside {
     position: relative;
     display: flex;
