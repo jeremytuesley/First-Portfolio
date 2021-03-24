@@ -1,0 +1,126 @@
+commit 3e7aaf2be8a5392f88dacdbebd12f8bbf271312a
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 16:52:53 2021 +1000
+
+    test integrity error2
+
+commit 0ad0abaa29b5fc6ac2216094f1275cb296fd2a17
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 16:46:11 2021 +1000
+
+    test integrity error
+
+commit 01185b368f7ece0c590c6b68aa59433397279ee4
+Merge: 9261559 d164179
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 16:40:17 2021 +1000
+
+    Merge branch 'master' of github.com:jeremytuesley/Website-Portfolio
+
+commit 92615596d8d7ad9d7ba2b6ab26d1687265a24c0f
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 16:39:28 2021 +1000
+
+    Resolution-fix-and-sri-redone-again
+
+commit d1641792b7e030004c059acdbf4814ee8869467b
+Author: Jeremy Tuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 16:29:42 2021 +1000
+
+    Create CNAME
+
+commit 4257b410103faa1e79e1d492b3437b44161be2dd
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 16:27:55 2021 +1000
+
+    Revert "Merge branch 'master' of github.com:jeremytuesley/Website-Portfolio"
+    
+    This reverts commit 4b897d9ee37d9b2c62ecc54bc1ccc69637cbb71e, reversing
+    changes made to 2811d902459688b009e9944b913e55d34c19fdae.
+
+commit d8951225b23cc6367e08465a9bc8c9f1aa23542a
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 16:26:43 2021 +1000
+
+    Revert "resolution-fix"
+    
+    This reverts commit 2811d902459688b009e9944b913e55d34c19fdae.
+
+commit 4b897d9ee37d9b2c62ecc54bc1ccc69637cbb71e
+Merge: 2811d90 7c84f7f
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 16:21:06 2021 +1000
+
+    Merge branch 'master' of github.com:jeremytuesley/Website-Portfolio
+
+commit 2811d902459688b009e9944b913e55d34c19fdae
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 16:20:50 2021 +1000
+
+    resolution-fix
+
+commit 7c84f7f57b471e502d25fd382ff9f1e77cae7d15
+Author: Jeremy Tuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 04:46:53 2021 +1000
+
+    Create CNAME
+
+commit 4bb4c4b6341ce4803281228b6137e2cae4bf567f
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 02:40:54 2021 +1000
+
+    validation-sri-small-touch-ups
+
+commit b72c05eee3e6629377f1c82de03106f92ecc15ea
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 01:23:30 2021 +1000
+
+    validation
+
+commit 7ac22db1bf43663168145c5d97a90f2b580b142c
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sun Mar 14 00:42:11 2021 +1000
+
+    responsive-design
+
+commit c7c3d2c10f69391c4e7751f1e8979470061c8b1f
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sat Mar 13 20:16:43 2021 +1000
+
+    blog-posts-update
+
+commit 7ab60d4506cd071f2b26e98e45225d03538a12f9
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Sat Mar 13 18:28:17 2021 +1000
+
+    Blog-website-update-and-file-structure
+
+commit 2b03d16cc99bc5d2775d65a08c325c3ebe845727
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Fri Mar 12 17:28:05 2021 +1000
+
+    contact-website-update
+
+commit b7fed2d42895370ad9add7a4464b3ed2c352a577
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Fri Mar 12 15:39:05 2021 +1000
+
+    About-website-update
+
+commit 4ac5c6a5081431bda4244be4832e218972d534fc
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Thu Mar 11 17:49:02 2021 +1000
+
+    file-cleanup
+
+commit ee5600977cb945f5fec958c024ce319ef0c5a10d
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Thu Mar 11 17:42:13 2021 +1000
+
+    website-overhaul-update
+
+commit 4e3af7088a1616b4c759ad7d73fa97804c45b292
+Author: jeremytuesley <jeremytuesley@gmail.com>
+Date:   Thu Mar 11 16:49:54 2021 +1000
+
+    Start-of-Website
